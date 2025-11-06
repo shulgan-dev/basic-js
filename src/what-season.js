@@ -11,7 +11,7 @@ const { NotImplementedError } = require("../lib");
  * getSeason(new Date(2020, 02, 31)) => 'spring'
  *
  */
-function getSeason(/* date */) {
+function getSeason(date) {
   if (date == "undefined") {
     return "Unable to determine the time of year!";
   }
